@@ -1,8 +1,10 @@
-from sys import stdin
+def transform(string):
+    string = list(string.split(sep='&'))
+    data = dict()
+    for x in string:
+        key, value = x.split(sep='=')
+        data[key] = value
+    return data
 
-data = dict()
-string = list(stdin.readline().strip().split(sep='&'))
-for x in string:
-    key, value = x.split(sep='=')
-    data[key] = value
-print(data)
+
+print(transform(string=input().strip()))
