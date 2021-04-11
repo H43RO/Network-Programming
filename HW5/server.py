@@ -26,5 +26,5 @@ while True:
             client.send(b'Try Again')
         else:
             client.send(str(result).encode())
-
+    print("서버 끊김")
     client.close()

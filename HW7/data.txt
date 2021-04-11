@@ -1,0 +1,12 @@
+Mon Apr 12 01:01:28 2021: Device1: Temp=31, Humid=89, Illum=112
+Mon Apr 12 01:01:30 2021: Device2: Heartbeat=40, Steps=2496, Cal=2180
+Mon Apr 12 01:01:31 2021: Device1: Temp=8, Humid=74, Illum=91
+Mon Apr 12 01:01:31 2021: Device2: Heartbeat=121, Steps=2361, Cal=1445
+Mon Apr 12 01:01:32 2021: Device1: Temp=18, Humid=68, Illum=101
+Mon Apr 12 01:01:32 2021: Device2: Heartbeat=61, Steps=3601, Cal=3489
+Mon Apr 12 01:01:32 2021: Device1: Temp=32, Humid=61, Illum=71
+Mon Apr 12 01:01:33 2021: Device2: Heartbeat=111, Steps=3256, Cal=2292
+Mon Apr 12 01:01:33 2021: Device1: Temp=13, Humid=25, Illum=80
+Mon Apr 12 01:01:34 2021: Device2: Heartbeat=102, Steps=2287, Cal=1773
+Mon Apr 12 01:01:35 2021: Device1: Temp=32, Humid=41, Illum=70
+Mon Apr 12 01:01:35 2021: Device2: Heartbeat=89, Steps=4691, Cal=2553
