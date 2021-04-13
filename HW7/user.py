@@ -1,8 +1,8 @@
 from socket import *
 import time
+
 BUF_SIZE = 1024
 LENGTH = 20
-
 
 while True:
     user_input = input()
@@ -43,4 +43,3 @@ while True:
         device1_socket.send(b'quit')
         device2_socket.send(b'quit')
         break
-
