@@ -8,10 +8,10 @@ BUFF_SIZE = 1024
 sock = socket(AF_INET, SOCK_DGRAM)
 addr = ('localhost', PORT)
 while True:
-    msg = input('-> ')
+    msg = input('>> ')
     reTx = 0
     while reTx <= 3:  # 최대 3회까지 재전송
-        resp = str(reTx) + ' ' + msg
+        resp = msg + f' ({str(reTx)} tried)'
         sock.sendto(resp.encode(), addr)
         sock.settimeout(2)
         try:
@@ -32,5 +32,5 @@ while True:
             continue
         else:
             sock.sendto(b'ack', addr)
-            print('<- ', data.decode())
+            print('[Server] :', data.decode())
             break
