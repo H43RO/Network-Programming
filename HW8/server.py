@@ -17,22 +17,21 @@ while True:
         box_id, message = temp[1], temp[2:]
         message = " ".join(message)
         if box_id not in box:
-            print(f'{box_id} 박스가 생성되었습니다.')
-            box[str(box_id)] = deque(["".join(message)])
-            print(f'{box_id} 박스에 {message} 가 담겼습니다')
+            box[str(box_id)] = deque([message])
+            print(f"LOG : [{box_id}] <- '{message}'")
         else:
-            box[str(box_id)].append("".join(message))
-            print(f'{box_id} 박스에 {message} 가 담겼습니다')
+            box[str(box_id)].append(message)
+            print(f"LOG : [{box_id}] <- '{message}'")
 
     elif request.startswith('receive'):
         box_id = request.split()[1]
         if box_id not in box:
-            print(f'{box_id} 박스 자체가 없습니다')
+            print(f"LOG : [{box_id}] box doesn't exist -> send failed")
             sock.sendto("No messages".encode(), addr)
         else:
             if box[str(box_id)]:
-                print(f'{box_id} 박스에 메세지가 담겨 있으므로 전송합니다')
+                print(f'LOG : [{box_id}] box has message -> send to [{addr}]')
                 sock.sendto(box[str(box_id)].popleft().encode(), addr)
             else:
-                print(f'{box_id} 박스에 메세지가 없습니다')
+                print(f'LOG : [{box_id}] box has not message -> send failed')
                 sock.sendto("No messages".encode(), addr)

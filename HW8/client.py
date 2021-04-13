@@ -17,4 +17,7 @@ while True:
     elif msg == 'quit':
         sock.sendto('quit'.encode(), ('localhost', PORT))
         break
+    else:
+        print('Invalid Input')
+
 sock.close()
