@@ -34,14 +34,17 @@ def getLength(unpacked):
 def getChecksum(unpacked):
     return unpacked[3]
 
+
 if __name__ == '__main__':
     udp = Udphr(5555, 80, 1000, 0xFFFF)
     packed_udphr = udp.pack_Udphr()
-    print(binascii.b2a_hex(packed_udphr))
+    print('Packed :', binascii.b2a_hex(packed_udphr))
 
     unpack_udphr = unpack_Udphr(packed_udphr)  # Tuple 형태로 리턴
-    print(unpack_udphr)
+    print('Unpacked :', unpack_udphr)
+    print()
 
+    print('=' * 20)
     print(f'Source Port : {getSrcPort(unpack_udphr)}')
     print(f'Destination Port : {getDstPort(unpack_udphr)}')
     print(f'Length : {getLength(unpack_udphr)}')
