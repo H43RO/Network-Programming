@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a189fc0-52ed-41db-b8b6-68fee09f90d1" name="Default Changelist" comment="Practice">
-      <change afterPath="$PROJECT_DIR$/Example2/udp_chat_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example2/udp_chat_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example2/udp_echo_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example2/udp_echo_server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example2/udp_loss_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example2/udp_loss_server.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,29 +46,7 @@
       <recent name="$PROJECT_DIR$/HW6" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.udp_chat_client">
-    <configuration name="file_client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="NetworkProgramming" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Example" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Example/file_client.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.udp_loss_client">
     <configuration name="udp_chat_client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="NetworkProgramming" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -138,7 +113,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="udp_echo_server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="udp_loss_client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="NetworkProgramming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -151,7 +126,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Example2/udp_echo_server.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Example2/udp_loss_client.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="udp_loss_server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="NetworkProgramming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Example2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Example2/udp_loss_server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.udp_loss_client" />
+        <item itemvalue="Python.udp_loss_server" />
         <item itemvalue="Python.udp_chat_client" />
         <item itemvalue="Python.udp_chat_server" />
         <item itemvalue="Python.udp_echo_client" />
-        <item itemvalue="Python.udp_echo_server" />
-        <item itemvalue="Python.file_client" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +192,7 @@
       <workItem from="1618583221506" duration="3412000" />
       <workItem from="1618678948239" duration="6984000" />
       <workItem from="1618819015901" duration="7538000" />
-      <workItem from="1618829967461" duration="2529000" />
+      <workItem from="1618829967461" duration="3114000" />
     </task>
     <task id="LOCAL-00001" summary="HW2">
       <created>1615724463409</created>
@@ -309,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618829742198</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Practice">
+      <created>1618832990325</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1618832990325</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,6 +343,16 @@
     <MESSAGE value="Practice" />
     <option name="LAST_COMMIT_MESSAGE" value="Practice" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Example2/udp_echo_client.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/NetworkProgramming$server__2_.coverage" NAME="server (2) Coverage Results" MODIFIED="1617444898005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW6" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$udp_loss_chat_client.coverage" NAME="udp_loss_chat_client Coverage Results" MODIFIED="1618327714235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW9" />
@@ -354,6 +368,7 @@
     <SUITE FILE_PATH="coverage/NetworkProgramming$cmd_server.coverage" NAME="cmd_server Coverage Results" MODIFIED="1618684141852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$3.coverage" NAME="3 Coverage Results" MODIFIED="1615724649853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW2" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$2.coverage" NAME="2 Coverage Results" MODIFIED="1615724636466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW2" />
+    <SUITE FILE_PATH="coverage/NetworkProgramming$udp_loss_client.coverage" NAME="udp_loss_client Coverage Results" MODIFIED="1618833408471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example2" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$5.coverage" NAME="5 Coverage Results" MODIFIED="1615724703680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW2" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$server__1_.coverage" NAME="server (1) Coverage Results" MODIFIED="1617882080165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW5" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$udp_chat_server.coverage" NAME="udp_chat_server Coverage Results" MODIFIED="1618832513637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example2" />
@@ -372,6 +387,7 @@
     <SUITE FILE_PATH="coverage/NetworkProgramming$echo_server_with_exception.coverage" NAME="echo_server_with_exception Coverage Results" MODIFIED="1618683672857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$file_server.coverage" NAME="file_server Coverage Results" MODIFIED="1618828412356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$udp_echo_client.coverage" NAME="udp_echo_client Coverage Results" MODIFIED="1618831611335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example2" />
+    <SUITE FILE_PATH="coverage/NetworkProgramming$udp_loss_server.coverage" NAME="udp_loss_server Coverage Results" MODIFIED="1618833407057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example2" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$server.coverage" NAME="server Coverage Results" MODIFIED="1618326584823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW8" />
   </component>
 </project>
