@@ -2,6 +2,7 @@ import socket
 import struct
 import binascii
 
+
 class Udphr:
     def __init__(self, sport, dport, length, checksum):
         self.sport = sport
