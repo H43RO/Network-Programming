@@ -27,7 +27,7 @@ def server_task(sock):
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.bind(('', PORT))
-s.listen(3)
+s.listen(50)
 
 print('=' * 20 + 'Server Started' + '=' * 20)
 
