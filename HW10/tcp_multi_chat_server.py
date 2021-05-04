@@ -3,7 +3,7 @@ import threading
 import time
 
 clients = []
-PORT = 9090
+PORT = 4567
 BUF_SIZE = 1024
 
 

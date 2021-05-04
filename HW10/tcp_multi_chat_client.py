@@ -1,7 +1,7 @@
 from socket import *
 import threading
 
-PORT = 9090
+PORT = 4567
 BUF_SIZE = 1024
 
 
