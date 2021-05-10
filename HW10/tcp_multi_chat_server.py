@@ -7,17 +7,17 @@ PORT = 4567
 BUF_SIZE = 1024
 
 
-def server_task(sock):
+def server_task(sock, addr):
     while True:
         data = sock.recv(BUF_SIZE)
 
         # Quit 요청한 연결은 끊음
         if 'quit' in data.decode() and sock in clients:
-            print(sock, ': exited')
+            print(addr, ': exited')
             clients.remove(sock)
             continue
 
-        print(time.asctime() + str(sock) + ':' + data.decode())
+        print(time.asctime() + str(addr) + ':' + data.decode())
 
         # 송신 측 소켓 제외 나머지 모든 Client 들에게 메세지 전달
         for x in clients:
@@ -35,4 +35,4 @@ while True:
     conn, addr = s.accept()
     clients.append(conn)
     print(conn, ': connected')
-    threading.Thread(target=server_task, args=(conn,)).start()
+    threading.Thread(target=server_task, args=(conn, addr)).start()
