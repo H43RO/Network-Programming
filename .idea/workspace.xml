@@ -1,11 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a189fc0-52ed-41db-b8b6-68fee09f90d1" name="Default Changelist" comment="HW10">
-      <change afterPath="$PROJECT_DIR$/HW11/tcp_select_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW11/tcp_select_server.py" afterDir="false" />
+    <list default="true" id="2a189fc0-52ed-41db-b8b6-68fee09f90d1" name="Default Changelist" comment="HW11">
+      <change afterPath="$PROJECT_DIR$/Example3/Async_IO_Socket/async_stream_echo_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example3/Async_IO_Socket/async_stream_echo_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example3/Async_IO_Socket/async_web_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example3/Coroutines/async_echo_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example3/Coroutines/async_get_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example3/Coroutines/async_get_user_using_sync_func.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example3/Coroutines/async_how.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example3/Coroutines/await_coroutine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example3/Coroutines/await_task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example3/HTTP/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example3/HTTP/http_server1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example3/HTTP/http_server4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example3/HTTP/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example3/HTTP/iot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example3/HTTP/requests_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example3/HTTP/simple_browser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example3/HTTP/url_open1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example3/IO_Bound/aio_requests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example3/IO_Bound/multi_process_requests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example3/IO_Bound/multi_thread_requests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example3/IoT_Device_Control_Server/http_iot_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example3/IoT_Device_Control_Server/index_button.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example3/SelectorsModule/selectors_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example3/SharedData/tcp_threaded_shared_number_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example3/SharedData/tcp_threaded_shared_number_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW12/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW12/device1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW12/device2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW12/user.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW10/tcp_multi_chat_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW10/tcp_multi_chat_server.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +41,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -32,15 +59,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/HW7" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Example3/HTTP" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Example3/HTTP" />
+      <recent name="$PROJECT_DIR$/HW12" />
       <recent name="$PROJECT_DIR$/HW7" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -48,8 +78,11 @@
       <recent name="$PROJECT_DIR$/HW6" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.tcp_select_client">
-    <configuration name="client (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.http_iot_server">
+    <configuration name="index_button.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/NetworkProgramming/Example3/IoT_Device_Control_Server/index_button.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="http_iot_server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="NetworkProgramming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -57,12 +90,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HW_Review/HW5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Example3/IoT_Device_Control_Server" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW_Review/HW5/client.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Example3/IoT_Device_Control_Server/http_iot_server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -71,7 +104,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tcp_multi_chat_client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="http_server1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="NetworkProgramming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -79,12 +112,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HW10" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Example3/HTTP" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW10/tcp_multi_chat_client.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Example3/HTTP/http_server1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -93,7 +126,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tcp_multi_chat_server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="http_server4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="NetworkProgramming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -101,12 +134,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HW10" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Example3/HTTP" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW10/tcp_multi_chat_server.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Example3/HTTP/http_server4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,7 +148,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tcp_select_client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="simple_browser" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="NetworkProgramming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -123,34 +156,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HW11" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Example3/HTTP" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW11/tcp_select_client.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="tcp_select_server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="NetworkProgramming" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HW11" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW11/tcp_select_server.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Example3/HTTP/simple_browser.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.tcp_select_client" />
-        <item itemvalue="Python.tcp_select_server" />
-        <item itemvalue="Python.tcp_multi_chat_client" />
-        <item itemvalue="Python.tcp_multi_chat_server" />
-        <item itemvalue="Python.client (1)" />
+        <item itemvalue="Python.http_iot_server" />
+        <item itemvalue="JavaScript Debug.index_button.html" />
+        <item itemvalue="Python.http_server4" />
+        <item itemvalue="Python.http_server1" />
+        <item itemvalue="Python.simple_browser" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +210,10 @@
       <workItem from="1620137799286" duration="4661000" />
       <workItem from="1620147482330" duration="381000" />
       <workItem from="1620197204571" duration="2000" />
-      <workItem from="1620632499372" duration="2062000" />
+      <workItem from="1620632499372" duration="2822000" />
+      <workItem from="1620719240005" duration="401000" />
+      <workItem from="1620746835387" duration="4000" />
+      <workItem from="1623130898737" duration="15239000" />
     </task>
     <task id="LOCAL-00001" summary="HW2">
       <created>1615724463409</created>
@@ -376,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620142941920</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="HW11">
+      <created>1620634906390</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1620634906390</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -405,7 +426,8 @@
     <MESSAGE value="HW9" />
     <MESSAGE value="Practice" />
     <MESSAGE value="HW10" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW10" />
+    <MESSAGE value="HW11" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW11" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -424,32 +446,29 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/NetworkProgramming$udp_loss_client.coverage" NAME="udp_loss_client Coverage Results" MODIFIED="1618833408471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example2" />
-    <SUITE FILE_PATH="coverage/NetworkProgramming$udp_chat_server.coverage" NAME="udp_chat_server Coverage Results" MODIFIED="1618832513637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example2" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$client__1_.coverage" NAME="client (1) Coverage Results" MODIFIED="1618938708371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW_Review/HW5" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$1.coverage" NAME="1 Coverage Results" MODIFIED="1615724606562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW2" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$4.coverage" NAME="4 Coverage Results" MODIFIED="1615724658851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW2" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$practice2.coverage" NAME="practice2 Coverage Results" MODIFIED="1618682106967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NetworkProgramming$async_stream_echo_client.coverage" NAME="async_stream_echo_client Coverage Results" MODIFIED="1623140756513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example3/Async_IO_Socket" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$server__2_.coverage" NAME="server (2) Coverage Results" MODIFIED="1617444898005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW6" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$file_server.coverage" NAME="file_server Coverage Results" MODIFIED="1618828412356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example" />
-    <SUITE FILE_PATH="coverage/NetworkProgramming$cmd_server.coverage" NAME="cmd_server Coverage Results" MODIFIED="1618684141852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example" />
+    <SUITE FILE_PATH="coverage/NetworkProgramming$async_how.coverage" NAME="async_how Coverage Results" MODIFIED="1623138462702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example3/Coroutines" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$echo_client_with_exception.coverage" NAME="echo_client_with_exception Coverage Results" MODIFIED="1618683674318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$2__1_.coverage" NAME="2 (1) Coverage Results" MODIFIED="1616564189645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW3" />
-    <SUITE FILE_PATH="coverage/NetworkProgramming$1__1_.coverage" NAME="1 (1) Coverage Results" MODIFIED="1616564151730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW3" />
-    <SUITE FILE_PATH="coverage/NetworkProgramming$user.coverage" NAME="user Coverage Results" MODIFIED="1618156887189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW7" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$udp_echo_server.coverage" NAME="udp_echo_server Coverage Results" MODIFIED="1618831609848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example2" />
-    <SUITE FILE_PATH="coverage/NetworkProgramming$3.coverage" NAME="3 Coverage Results" MODIFIED="1615724649853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW2" />
-    <SUITE FILE_PATH="coverage/NetworkProgramming$simple_browser.coverage" NAME="simple_browser Coverage Results" MODIFIED="1618682979228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example" />
-    <SUITE FILE_PATH="coverage/NetworkProgramming$udp_echo_client.coverage" NAME="udp_echo_client Coverage Results" MODIFIED="1618831611335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example2" />
+    <SUITE FILE_PATH="coverage/NetworkProgramming$multi_process_requests.coverage" NAME="multi_process_requests Coverage Results" MODIFIED="1623135987073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example3/IO_Bound" />
+    <SUITE FILE_PATH="coverage/NetworkProgramming$simple_browser.coverage" NAME="simple_browser Coverage Results" MODIFIED="1623152831096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example3/HTTP" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$udp_loss_server.coverage" NAME="udp_loss_server Coverage Results" MODIFIED="1618833407057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example2" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$tcp_select_client.coverage" NAME="tcp_select_client Coverage Results" MODIFIED="1620634168431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW11" />
-    <SUITE FILE_PATH="coverage/NetworkProgramming$tcp_multi_chat_client.coverage" NAME="tcp_multi_chat_client Coverage Results" MODIFIED="1620141506819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW10" />
-    <SUITE FILE_PATH="coverage/NetworkProgramming$practice.coverage" NAME="practice Coverage Results" MODIFIED="1618681348024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/NetworkProgramming$device2.coverage" NAME="device2 Coverage Results" MODIFIED="1618156885807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW7" />
-    <SUITE FILE_PATH="coverage/NetworkProgramming$dns_client.coverage" NAME="dns_client Coverage Results" MODIFIED="1618904157210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example2" />
+    <SUITE FILE_PATH="coverage/NetworkProgramming$multi_thread_requests.coverage" NAME="multi_thread_requests Coverage Results" MODIFIED="1623135682206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example3/IO_Bound" />
+    <SUITE FILE_PATH="coverage/NetworkProgramming$device2.coverage" NAME="device2 Coverage Results" MODIFIED="1623134436237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW12" />
+    <SUITE FILE_PATH="coverage/NetworkProgramming$http_iot_server.coverage" NAME="http_iot_server Coverage Results" MODIFIED="1623155506267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example3/IoT_Device_Control_Server" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$tcp_select_server.coverage" NAME="tcp_select_server Coverage Results" MODIFIED="1620634166819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW11" />
-    <SUITE FILE_PATH="coverage/NetworkProgramming$server.coverage" NAME="server Coverage Results" MODIFIED="1618937273467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW_Review/HW4" />
+    <SUITE FILE_PATH="coverage/NetworkProgramming$aio_requests.coverage" NAME="aio_requests Coverage Results" MODIFIED="1623136361878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example3/IO_Bound" />
+    <SUITE FILE_PATH="coverage/NetworkProgramming$url_open1.coverage" NAME="url_open1 Coverage Results" MODIFIED="1623151310596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example3/HTTP" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$udp_chat_client.coverage" NAME="udp_chat_client Coverage Results" MODIFIED="1618832515549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example2" />
-    <SUITE FILE_PATH="coverage/NetworkProgramming$server__1_.coverage" NAME="server (1) Coverage Results" MODIFIED="1618938706929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW_Review/HW5" />
+    <SUITE FILE_PATH="coverage/NetworkProgramming$await_task.coverage" NAME="await_task Coverage Results" MODIFIED="1623137868552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example3/Coroutines" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$hw1.coverage" NAME="hw1 Coverage Results" MODIFIED="1614868241749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW1_HYUNJUN_KIM" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$echo_server_with_exception.coverage" NAME="echo_server_with_exception Coverage Results" MODIFIED="1618683672857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$file_client.coverage" NAME="file_client Coverage Results" MODIFIED="1618828555713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example" />
@@ -457,11 +476,32 @@
     <SUITE FILE_PATH="coverage/NetworkProgramming$3__1_.coverage" NAME="3 (1) Coverage Results" MODIFIED="1616565457038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW3" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$hello.coverage" NAME="hello Coverage Results" MODIFIED="1614867882015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$4__1_.coverage" NAME="4 (1) Coverage Results" MODIFIED="1616564212269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW3" />
-    <SUITE FILE_PATH="coverage/NetworkProgramming$device1.coverage" NAME="device1 Coverage Results" MODIFIED="1618156884134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW7" />
+    <SUITE FILE_PATH="coverage/NetworkProgramming$device1.coverage" NAME="device1 Coverage Results" MODIFIED="1623134434294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW12" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$udp_loss_chat_client.coverage" NAME="udp_loss_chat_client Coverage Results" MODIFIED="1618327714235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW9" />
-    <SUITE FILE_PATH="coverage/NetworkProgramming$5.coverage" NAME="5 Coverage Results" MODIFIED="1615724703680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW2" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$iphdr.coverage" NAME="iphdr Coverage Results" MODIFIED="1618903430055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example2" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$2.coverage" NAME="2 Coverage Results" MODIFIED="1615724636466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW2" />
+    <SUITE FILE_PATH="coverage/NetworkProgramming$udp_chat_server.coverage" NAME="udp_chat_server Coverage Results" MODIFIED="1618832513637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example2" />
+    <SUITE FILE_PATH="coverage/NetworkProgramming$http_server1.coverage" NAME="http_server1 Coverage Results" MODIFIED="1623152886820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example3/HTTP" />
+    <SUITE FILE_PATH="coverage/NetworkProgramming$tcp_threaded_shared_number_server.coverage" NAME="tcp_threaded_shared_number_server Coverage Results" MODIFIED="1623131561945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example3/SharedData" />
+    <SUITE FILE_PATH="coverage/NetworkProgramming$cmd_server.coverage" NAME="cmd_server Coverage Results" MODIFIED="1618684141852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example" />
+    <SUITE FILE_PATH="coverage/NetworkProgramming$async_web_client.coverage" NAME="async_web_client Coverage Results" MODIFIED="1623141110799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example3/Async_IO_Socket" />
+    <SUITE FILE_PATH="coverage/NetworkProgramming$http_server4.coverage" NAME="http_server4 Coverage Results" MODIFIED="1623153706501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example3/HTTP" />
+    <SUITE FILE_PATH="coverage/NetworkProgramming$1__1_.coverage" NAME="1 (1) Coverage Results" MODIFIED="1616564151730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW3" />
+    <SUITE FILE_PATH="coverage/NetworkProgramming$user.coverage" NAME="user Coverage Results" MODIFIED="1623134438033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW12" />
+    <SUITE FILE_PATH="coverage/NetworkProgramming$3.coverage" NAME="3 Coverage Results" MODIFIED="1615724649853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW2" />
+    <SUITE FILE_PATH="coverage/NetworkProgramming$tcp_threaded_shared_number_client.coverage" NAME="tcp_threaded_shared_number_client Coverage Results" MODIFIED="1623131573311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example3/SharedData" />
+    <SUITE FILE_PATH="coverage/NetworkProgramming$requests_1.coverage" NAME="requests_1 Coverage Results" MODIFIED="1623152086966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example3/HTTP" />
+    <SUITE FILE_PATH="coverage/NetworkProgramming$udp_echo_client.coverage" NAME="udp_echo_client Coverage Results" MODIFIED="1618831611335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example2" />
+    <SUITE FILE_PATH="coverage/NetworkProgramming$tcp_multi_chat_client.coverage" NAME="tcp_multi_chat_client Coverage Results" MODIFIED="1620141506819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW10" />
+    <SUITE FILE_PATH="coverage/NetworkProgramming$practice.coverage" NAME="practice Coverage Results" MODIFIED="1618681348024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NetworkProgramming$dns_client.coverage" NAME="dns_client Coverage Results" MODIFIED="1618904157210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example2" />
+    <SUITE FILE_PATH="coverage/NetworkProgramming$server.coverage" NAME="server Coverage Results" MODIFIED="1618937273467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW_Review/HW4" />
+    <SUITE FILE_PATH="coverage/NetworkProgramming$server__1_.coverage" NAME="server (1) Coverage Results" MODIFIED="1618938706929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW_Review/HW5" />
+    <SUITE FILE_PATH="coverage/NetworkProgramming$async_get_user_using_sync_func.coverage" NAME="async_get_user_using_sync_func Coverage Results" MODIFIED="1623139247511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example3/Coroutines" />
+    <SUITE FILE_PATH="coverage/NetworkProgramming$async_get_user.coverage" NAME="async_get_user Coverage Results" MODIFIED="1623138858673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example3/Coroutines" />
+    <SUITE FILE_PATH="coverage/NetworkProgramming$async_echo_server.coverage" NAME="async_echo_server Coverage Results" MODIFIED="1623139645064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example3/Coroutines" />
+    <SUITE FILE_PATH="coverage/NetworkProgramming$5.coverage" NAME="5 Coverage Results" MODIFIED="1615724703680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW2" />
+    <SUITE FILE_PATH="coverage/NetworkProgramming$async_stream_echo_server.coverage" NAME="async_stream_echo_server Coverage Results" MODIFIED="1623140755150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example3/Async_IO_Socket" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$client.coverage" NAME="client Coverage Results" MODIFIED="1618937274593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW_Review/HW4" />
   </component>
 </project>
