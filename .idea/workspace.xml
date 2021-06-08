@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a189fc0-52ed-41db-b8b6-68fee09f90d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Example3/AioHTTP_Server/http_iot_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example3/AioHTTP_Server/index_button.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example3/KakaoAPI/hello.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example3/KakaoAPI/hello.jpg_resized.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example3/KakaoAPI/index_kakao.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example3/KakaoAPI/item.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example3/KakaoAPI/kakao_login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example3/KakaoAPI/kakao_translate1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example3/KakaoAPI/kakao_translate2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example3/KakaoAPI/kakao_vision_face1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example3/KakaoAPI/kakao_vision_face2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example3/KakaoAPI/kakao_vision_item.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example3/KakaoAPI/kakao_vision_ocr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example3/KakaoAPI/kakao_vision_tag.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example3/KakaoAPI/profile.jpg" afterDir="false" />
+    <list default="true" id="2a189fc0-52ed-41db-b8b6-68fee09f90d1" name="Default Changelist" comment="Kakao API Practice">
+      <change afterPath="$PROJECT_DIR$/Example4/SMTP/lulu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example4/SMTP/outgoing.msg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example4/SMTP/smtp_email1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example4/SMTP/smtp_email2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example4/SMTP/smtp_email3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example4/SSH/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example4/SSH/index_get.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example4/SSH/index_get1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example4/SSH/iot.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example4/SSH/sft_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example4/SSH/sft_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example4/SSH/sft_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example4/SSH/ssh_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example4/SSH/ssh_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example4/SSH/test.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,26 +49,28 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Example3/AioHTTP_Server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Example4/SSH" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Example4/SSH" />
       <recent name="$PROJECT_DIR$/Example3/AioHTTP_Server" />
       <recent name="$PROJECT_DIR$/Example3/HTTP" />
       <recent name="$PROJECT_DIR$/HW12" />
       <recent name="$PROJECT_DIR$/HW7" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Example4/SMTP" />
       <recent name="$PROJECT_DIR$/Example3/KakaoAPI" />
       <recent name="$PROJECT_DIR$/Example" />
       <recent name="$PROJECT_DIR$/HW6" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.kakao_translate2">
-    <configuration name="kakao_translate1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.sft_3">
+    <configuration name="sft_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="NetworkProgramming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -76,12 +78,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Example3/KakaoAPI" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Example4/SSH" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Example3/KakaoAPI/kakao_translate1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Example4/SSH/sft_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -90,7 +92,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="kakao_translate2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="sft_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="NetworkProgramming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -98,12 +100,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Example3/KakaoAPI" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Example4/SSH" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Example3/KakaoAPI/kakao_translate2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Example4/SSH/sft_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -112,7 +114,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="kakao_vision_item" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="sft_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="NetworkProgramming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -120,12 +122,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Example3/KakaoAPI" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Example4/SSH" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Example3/KakaoAPI/kakao_vision_item.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Example4/SSH/sft_3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -134,7 +136,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="kakao_vision_ocr" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ssh_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="NetworkProgramming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -142,12 +144,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Example3/KakaoAPI" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Example4/SSH" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Example3/KakaoAPI/kakao_vision_ocr.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Example4/SSH/ssh_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,7 +158,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="kakao_vision_tag" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ssh_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="NetworkProgramming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -164,12 +166,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Example3/KakaoAPI" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Example4/SSH" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Example3/KakaoAPI/kakao_vision_tag.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Example4/SSH/ssh_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.kakao_translate2" />
-        <item itemvalue="Python.kakao_translate1" />
-        <item itemvalue="Python.kakao_vision_ocr" />
-        <item itemvalue="Python.kakao_vision_tag" />
-        <item itemvalue="Python.kakao_vision_item" />
+        <item itemvalue="Python.sft_3" />
+        <item itemvalue="Python.sft_2" />
+        <item itemvalue="Python.sft_1" />
+        <item itemvalue="Python.ssh_2" />
+        <item itemvalue="Python.ssh_1" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +224,7 @@
       <workItem from="1620719240005" duration="401000" />
       <workItem from="1620746835387" duration="4000" />
       <workItem from="1623130898737" duration="16611000" />
-      <workItem from="1623161731855" duration="3573000" />
+      <workItem from="1623161731855" duration="7878000" />
     </task>
     <task id="LOCAL-00001" summary="HW2">
       <created>1615724463409</created>
@@ -413,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623155592231</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Kakao API Practice">
+      <created>1623165591210</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1623165591210</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,7 +452,8 @@
     <MESSAGE value="HW10" />
     <MESSAGE value="HW11" />
     <MESSAGE value="Practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practice" />
+    <MESSAGE value="Kakao API Practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kakao API Practice" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -469,13 +479,16 @@
     <SUITE FILE_PATH="coverage/NetworkProgramming$async_stream_echo_client.coverage" NAME="async_stream_echo_client Coverage Results" MODIFIED="1623140756513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example3/Async_IO_Socket" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$server__2_.coverage" NAME="server (2) Coverage Results" MODIFIED="1617444898005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW6" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$file_server.coverage" NAME="file_server Coverage Results" MODIFIED="1618828412356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example" />
+    <SUITE FILE_PATH="coverage/NetworkProgramming$sft_3.coverage" NAME="sft_3 Coverage Results" MODIFIED="1623174595120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example4/SSH" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$kakao_translate1.coverage" NAME="kakao_translate1 Coverage Results" MODIFIED="1623165477172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example3/KakaoAPI" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$async_how.coverage" NAME="async_how Coverage Results" MODIFIED="1623138462702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example3/Coroutines" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$echo_client_with_exception.coverage" NAME="echo_client_with_exception Coverage Results" MODIFIED="1618683674318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$2__1_.coverage" NAME="2 (1) Coverage Results" MODIFIED="1616564189645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW3" />
+    <SUITE FILE_PATH="coverage/NetworkProgramming$ssh_2.coverage" NAME="ssh_2 Coverage Results" MODIFIED="1623169650817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example4/SSH" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$udp_echo_server.coverage" NAME="udp_echo_server Coverage Results" MODIFIED="1618831609848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example2" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$kakao_vision_ocr.coverage" NAME="kakao_vision_ocr Coverage Results" MODIFIED="1623165365620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example3/KakaoAPI" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$multi_process_requests.coverage" NAME="multi_process_requests Coverage Results" MODIFIED="1623135987073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example3/IO_Bound" />
+    <SUITE FILE_PATH="coverage/NetworkProgramming$smtp_email3.coverage" NAME="smtp_email3 Coverage Results" MODIFIED="1623168761782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example4/SMTP" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$simple_browser.coverage" NAME="simple_browser Coverage Results" MODIFIED="1623152831096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example3/HTTP" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$udp_loss_server.coverage" NAME="udp_loss_server Coverage Results" MODIFIED="1618833407057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example2" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$tcp_select_client.coverage" NAME="tcp_select_client Coverage Results" MODIFIED="1620634168431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW11" />
@@ -485,6 +498,7 @@
     <SUITE FILE_PATH="coverage/NetworkProgramming$http_iot_server.coverage" NAME="http_iot_server Coverage Results" MODIFIED="1623155536511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example3/IoT_Device_Control_Server" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$tcp_select_server.coverage" NAME="tcp_select_server Coverage Results" MODIFIED="1620634166819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW11" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$kakao_vision_face2.coverage" NAME="kakao_vision_face2 Coverage Results" MODIFIED="1623164539258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example3/KakaoAPI" />
+    <SUITE FILE_PATH="coverage/NetworkProgramming$kakao_translate2.coverage" NAME="kakao_translate2 Coverage Results" MODIFIED="1623165562259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example3/KakaoAPI" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$aio_requests.coverage" NAME="aio_requests Coverage Results" MODIFIED="1623136361878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example3/IO_Bound" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$url_open1.coverage" NAME="url_open1 Coverage Results" MODIFIED="1623151310596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example3/HTTP" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$udp_chat_client.coverage" NAME="udp_chat_client Coverage Results" MODIFIED="1618832515549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example2" />
@@ -503,6 +517,7 @@
     <SUITE FILE_PATH="coverage/NetworkProgramming$iphdr.coverage" NAME="iphdr Coverage Results" MODIFIED="1618903430055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example2" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$2.coverage" NAME="2 Coverage Results" MODIFIED="1615724636466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW2" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$udp_chat_server.coverage" NAME="udp_chat_server Coverage Results" MODIFIED="1618832513637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example2" />
+    <SUITE FILE_PATH="coverage/NetworkProgramming$smtp_email1.coverage" NAME="smtp_email1 Coverage Results" MODIFIED="1623168203520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example4/SMTP" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$kakao_login.coverage" NAME="kakao_login Coverage Results" MODIFIED="1623163960793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example3/KakaoAPI" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$http_server1.coverage" NAME="http_server1 Coverage Results" MODIFIED="1623152886820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example3/HTTP" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$tcp_threaded_shared_number_server.coverage" NAME="tcp_threaded_shared_number_server Coverage Results" MODIFIED="1623131561945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example3/SharedData" />
@@ -515,12 +530,16 @@
     <SUITE FILE_PATH="coverage/NetworkProgramming$tcp_threaded_shared_number_client.coverage" NAME="tcp_threaded_shared_number_client Coverage Results" MODIFIED="1623131573311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example3/SharedData" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$requests_1.coverage" NAME="requests_1 Coverage Results" MODIFIED="1623152086966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example3/HTTP" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$udp_echo_client.coverage" NAME="udp_echo_client Coverage Results" MODIFIED="1618831611335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example2" />
+    <SUITE FILE_PATH="coverage/NetworkProgramming$sft_2.coverage" NAME="sft_2 Coverage Results" MODIFIED="1623170308074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example4/SSH" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$tcp_multi_chat_client.coverage" NAME="tcp_multi_chat_client Coverage Results" MODIFIED="1620141506819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW10" />
+    <SUITE FILE_PATH="coverage/NetworkProgramming$sft_1.coverage" NAME="sft_1 Coverage Results" MODIFIED="1623169912771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example4/SSH" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$practice.coverage" NAME="practice Coverage Results" MODIFIED="1618681348024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$dns_client.coverage" NAME="dns_client Coverage Results" MODIFIED="1618904157210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example2" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$server.coverage" NAME="server Coverage Results" MODIFIED="1618937273467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW_Review/HW4" />
+    <SUITE FILE_PATH="coverage/NetworkProgramming$ssh_1.coverage" NAME="ssh_1 Coverage Results" MODIFIED="1623169286121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example4/SSH" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$server__1_.coverage" NAME="server (1) Coverage Results" MODIFIED="1618938706929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW_Review/HW5" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$async_get_user_using_sync_func.coverage" NAME="async_get_user_using_sync_func Coverage Results" MODIFIED="1623139247511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example3/Coroutines" />
+    <SUITE FILE_PATH="coverage/NetworkProgramming$smtp_email2.coverage" NAME="smtp_email2 Coverage Results" MODIFIED="1623168410063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example4/SMTP" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$async_get_user.coverage" NAME="async_get_user Coverage Results" MODIFIED="1623138858673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example3/Coroutines" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$async_echo_server.coverage" NAME="async_echo_server Coverage Results" MODIFIED="1623139645064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Example3/Coroutines" />
     <SUITE FILE_PATH="coverage/NetworkProgramming$5.coverage" NAME="5 Coverage Results" MODIFIED="1615724703680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW2" />
